@@ -1,0 +1,13 @@
+x = 300
+
+def myNumber():
+ input1 = int(input("Enter number: "))
+ input2 = int(input("Enter number: "))
+ input3 = int(input("Enter number: "))
+
+ largest = max(input1, input2, input3)
+
+ if largest <= x: 
+   print(f"The number closest to 300 is: {largest}")
+
+myNumber()
