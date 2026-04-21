@@ -16,12 +16,12 @@ def addTask():
 
 def viewTask():
     with open("todolist.txt", "r") as file:
-        print("\n--=To do list=--")
+        print("--=To do list=--")
         content = file.read()
         print(content)
 
 while True:
-    print("\n--==To do List==--")
+    print("--==To do List==--")
     print("Main Menu")
     print("A. Add Tasks")
     print("B. View Task (read)")
